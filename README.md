@@ -19,6 +19,11 @@ pip install gymnasium[all]==0.29.1
 pip install gymnasium[all]==0.29.1 -i https://pypi.tuna.tsinghua.edu.cn/simple 
 ```
 
+如果这里无论如何都是出box2d的编译错误，则先安装这个(参考 https://stackoverflow.com/questions/76222239/pip-install-gymnasiumbox2d-not-working-on-google-colab）
+``` conda
+pip install swig
+```
+
 ## Train
 ```conda
 cd dqn
